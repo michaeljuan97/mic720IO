@@ -177,6 +177,7 @@ int main(int argc, char **argv)
 			}
 
 			chanel = MIC_720AI_DI0 + chanel;
+			printf(chanel)
 			gpio_getvalue(chanel, &value);
 			printf("DI chanel %d value is %d\n", chanel - MIC_720AI_DI0, value);
 	    }
